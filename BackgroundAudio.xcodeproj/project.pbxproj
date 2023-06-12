@@ -16,6 +16,7 @@
 		1D44051B2A37BD94006A53CE /* BackgroundAudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D44051A2A37BD94006A53CE /* BackgroundAudioTests.swift */; };
 		1D4405252A37BD94006A53CE /* BackgroundAudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4405242A37BD94006A53CE /* BackgroundAudioUITests.swift */; };
 		1D4405272A37BD94006A53CE /* BackgroundAudioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4405262A37BD94006A53CE /* BackgroundAudioUITestsLaunchTests.swift */; };
+		1D4405342A37BE18006A53CE /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D4405332A37BE18006A53CE /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1D4405202A37BD94006A53CE /* BackgroundAudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroundAudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4405242A37BD94006A53CE /* BackgroundAudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAudioUITests.swift; sourceTree = "<group>"; };
 		1D4405262A37BD94006A53CE /* BackgroundAudioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAudioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D4405332A37BE18006A53CE /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		1D4405022A37BD93006A53CE /* BackgroundAudio */ = {
 			isa = PBXGroup;
 			children = (
+				1D4405332A37BE18006A53CE /* music.mp3 */,
 				1D4405032A37BD93006A53CE /* AppDelegate.swift */,
 				1D4405052A37BD93006A53CE /* SceneDelegate.swift */,
 				1D4405072A37BD93006A53CE /* ViewController.swift */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D4405342A37BE18006A53CE /* music.mp3 in Resources */,
 				1D4405102A37BD94006A53CE /* LaunchScreen.storyboard in Resources */,
 				1D44050D2A37BD94006A53CE /* Assets.xcassets in Resources */,
 				1D44050B2A37BD93006A53CE /* Main.storyboard in Resources */,
